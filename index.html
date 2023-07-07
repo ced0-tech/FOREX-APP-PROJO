@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>HTML forms</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>FOREX KENYA<br><br>LOGIN BELOW</h1>
+   <form>
+      <label for="username">Enter username:</label>
+      <input type="text" id="username" name="username" placeholder="username" required>
+      <br><br>
+      <label for="email">Enter email:</label>
+      <input type="email" id="email" name="email" placeholder="email" required>
+      <br><br>
+      <label for="broker">Enter broker:</label>
+      <input type="broker" id="broker" name="broker" placeholder="broker" required>
+      <br><br>
+      <label for="password">Enter password:</label>
+      <input type="password" id="password" name="password" placeholder="password" required>
+      <br><br>
+      <h2>CLICK BELOW TO SIGN UP</h2>
+      <nav>
+         <ul class="LINKS">
+            <a href="https://my.exness.com/accounts/sign-up/?utm_source=partners&gclid=EAIaIQobChMI1dm_zN70_wIVj0JBAh2izAo0EAAYAiAAEgIySfD_BwE&_8f4x=1">
+               <li>EXNESS</li>
+            </a>
+            <br><br>
+            <a href="https://deriv.com/signup/?t=zUJJ9xsBeu3w7lEIj5SYgWNd7ZgqdRLk&utm_source=affiliate_191643&utm_medium=affiliate&utm_campaign=MyAffiliates&utm_content=&referrer=www.google.com">
+               <li>DERIV</li>
+            </a>
+            <br><br>
+         </ul>
+      </nav>
+      <p>Select your age:</p>
+      <input type="radio" name="age" value="0-25" id="option1">
+      <label for="option1">0-25</label>
+      <input type="radio" name="age" value="26-50" id="option2">
+      <label for="option2">26-50</label>
+      <input type="radio" name="age" value="51+" id="option3">
+      <label for="option3">51+</label>
+      <br><br>
+      <label for="quiz">SECURITY QUIZ:</label>
+      <select name="quiz" id="quiz">
+         <option value="QUIZ 1">What pic has traffic lights?</option>
+         <option value="QUIZ 2">What is forex?</option>
+         <option value="QUIZ 3">What is this app?</option>
+      </select>
+      <br><br>
+      <label for="answer">SECURITY QUIZ ANSWER</label>
+      <input type="text" id="answer" name="answer">
+      <br><br>
+      <label for="bio">Your bio</label>
+      <textarea name="bio" id="bio" cols="20" rows="20" placeholder="Info about you"></textarea>
+      <br><br>
+      <samp></samp>
+      <input type="submit" value="Submit the form">
+   </form>
+   <div id="success-message"></div>
+   <div id="forex-rates"></div>
+   <div id="comments-section">
+      <h3>Comments</h3>
+      <input type="text" id="comment-input" placeholder="Add a comment">
+      <button id="comment-button">Submit</button>
+      <ul id="comment-list"></ul>
+   </div>
+   <footer>
+      <p>&copy; 2023 Forex Trading. All rights reserved.</p>
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
